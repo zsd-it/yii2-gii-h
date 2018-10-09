@@ -1,0 +1,12 @@
+{
+    "name": "zsd/yii2-gii-h",
+    "authors": [
+        {
+            "name": "Zsd",
+            "email": "zsd_it@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
