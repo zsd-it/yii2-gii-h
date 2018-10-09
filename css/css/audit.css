@@ -1,0 +1,245 @@
+.ph-case {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.ph-case-header {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.ph-case-header>h3 {
+    line-height: 60px;
+}
+
+.ph-case h3 {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.remark {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.remark>p {
+    margin: 0 0 10px;
+}
+
+.remark-textarea {
+    width: 50%;
+    margin-left: 20px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-submit {
+    display: inline-block;
+}
+
+.modal-dialog {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.ul-default {
+    list-style: none;
+}
+
+.img-show {
+    /* width: 90%;
+    margin-left: 5%;
+    height: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px; */
+    text-align: center;
+    min-height: 600px;
+}
+
+.img-show iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+}
+
+.img-show>.pdf {
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+}
+
+.img-show embed {
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+}
+
+.img-show canvas {
+    margin: 10px auto;
+}
+
+.img-show object {
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+}
+
+.img-show p {
+    text-align: left;
+    margin: 10px 0 0 0;
+}
+
+.img-scroll {
+    width: 100%;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.img-scroll>img {
+    max-width: 100%;
+}
+
+.btn-group- {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.btn-left {
+    margin-right: 20px;
+}
+
+.evidence-pass-remark {
+    width: 90%;
+    margin: 40px 0;
+}
+
+.evidence-pass-remark>p {
+    text-indent: 4em;
+    margin-top: 10px;
+}
+
+.evidence-pass-remark>textarea {
+    width: 50%;
+    border-radius: 3px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    resize: vertical;
+    min-height: 40px;
+}
+
+.evidence-pass-remark>div {
+    display: inline-block;
+}
+
+.radio {
+    font-size: 18px;
+}
+
+.radio>label {
+    margin-right: 15px;
+}
+
+.evidence-notpass-remark {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.config, .notpass-remark {
+    width: 47%;
+    height: 600px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.arrows {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.notpass-remark ul>li {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.add {
+    padding: 0 20px;
+}
+
+.notpass-remark ul {
+    margin-bottom: 5px;
+    width: 100%;
+    float: left;
+}
+
+.close {
+    font-size: 14px;
+}
+
+.notpass-remark input {
+    border-radius: 4px;
+}
+
+.notpass-remark>li {
+    overflow: hidden;
+}
+
+.config-item {
+    cursor: pointer;
+}
+
+.config-item:hover {
+    color: #777;
+}
+
+.config-item>span {
+    margin-right: 7px;
+    font-size: 12px;
+}
+
+.remark-tips {
+    font-size: 14px;
+    color: red;
+}
+
+#notpassModal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11111;
+    overflow-y: auto;
+}
+
+.modal-bg {
+    width: 100%;
+    height: 101%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.notpass-modal-content {
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
